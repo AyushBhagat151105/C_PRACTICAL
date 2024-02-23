@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <conio.h>
 // Function to calculate Fibonacci series recursively
 int fibonacci(int n) {
     if (n <= 1)
@@ -28,4 +28,5 @@ int main() {
     printFibonacci(n);
 
     return 0;
+    getch();
 }
